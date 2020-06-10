@@ -1,0 +1,17 @@
+{
+    "name": "mygento/varnish-reloader",
+    "license": "MIT",
+    "description": "Varnish vcl watcher and remote reloader",
+    "authors": [
+        {
+            "name": "nikita tarasov",
+            "email": "nikita@mygento.ru"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^1.1"
+    },
+    "require-dev": {
+      "mygento/coding-standard": "~2.13.5"
+    }
+}
