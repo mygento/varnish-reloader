@@ -152,6 +152,7 @@ class VarnishAdminSocket
         // set socket options
         stream_set_blocking($this->fp, 1);
         stream_set_timeout($this->fp, $timeout);
+        $code = null;
         // connecting should give us the varnishadm banner with a 200 code, or 107 for auth challenge
         $banner = $this->read($code);
         if (107 === $code) {

@@ -9,5 +9,5 @@ VARNISH_PORT='6082'
 VARNISH_VERSION=6
 VARNISH_SECRET=''
 VCL_PATH='/app/current.vcl'
-VARNISH_HOSTS_FILE='/app/varnish.json'
+VARNISH_HOSTS_FILE='/app/varnish.list'
 ``
